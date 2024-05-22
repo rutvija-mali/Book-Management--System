@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.book-container{
+    width: 80vw;
+    height:10vh;
+    margin: 10px 0px;
+    background-color:#d7d7ea;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    transition: 0.25s linear;
+}
+.book-container:hover{
+    transform: scale(1.012);
+    background-color:#cbcbeb;
+}
+
+.book-data,.btn{
+    height: 48%;
+    display: flex;
+    align-items: center;
+    background-color:#f5f3f7;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#container-data1,#input1 {
+    width: 5%;
+}
+
+#container-data2,#input2 {
+    width: 20%;
+}
+
+#container-data3,#input3 {
+    width: 18%;
+}
+
+#container-data4,#input4 {
+    width: 8%;
+}
+.btn{
+    width: 7%;
+    height: 48%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 0px ;
+    color: white;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    color:#CDE8E5;
+}
+#update-btn{
+    background-color:#4b4276 ;
+}
+#remove-btn{
+    background-color: #c0392b;
+}
