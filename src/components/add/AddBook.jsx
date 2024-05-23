@@ -29,7 +29,7 @@ function AddBook(props)
         setEnteredId(event.target.value);
     }
     function handleChangeTittle(event){
-        setEnteredTittle(event.target.value) 
+        setEnteredTitle(event.target.value) 
     }
     function handleChangeAuthor(event){
         setEnteredAuthor(event.target.value)

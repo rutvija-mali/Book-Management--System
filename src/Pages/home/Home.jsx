@@ -6,7 +6,7 @@ import './Home.css'
 
 function Home()
 {
-    let { data, error } = useFetch('http://localhost:8000/books');
+    let { data, error } = useFetch('https://book-data-json.onrender.com/books');
     let [books, setBooks] = useState(null);
   
     useEffect(()=>{
